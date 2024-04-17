@@ -5,4 +5,5 @@ branches:
 projects:
   LocateMe:
     path: ""
+    icon: "icon.png"
 ...
