@@ -8,7 +8,7 @@ commands:
   coords:
     description: Get the coordinates of a player.
     usage: /coords <username>
-    permission: coords.command
+    permission: locateme.command
 permissions:
-  coords.command:
+  locateme.command:
     default: op
