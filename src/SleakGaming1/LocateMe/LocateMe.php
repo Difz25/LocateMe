@@ -28,7 +28,7 @@ public function onCommand(CommandSender $sender, Command $command, string $label
             
             $x = $target->getPosition()->getX();
             $y = $target->getPosition()->getY();
-            $z = $target->getPosition()->getz();
+            $z = $target->getPosition()->getZ();
             
             $sender->sendMessage("§6" . $target->getName() . "'s Coordinates§8: §3X: §7$x §3Y: §7$y §3Z: §7$z");
             return true;
